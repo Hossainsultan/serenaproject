@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+li{
+	list-style: none;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+h2{
+    font-size: 35px;
+    color: #fff;
+}
+h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+h4{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+h6{}
+
+header{
+    background: #C4B4A3;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    color: #3e3d3d;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 6px 10px;
+}
+nav ul li a h1{}
+
+.content{
+    text-align: center;
+    width: 420px;
+    margin: 250px auto;
+    padding: 20px;
+    
+}
+.content h2{
+	font-size: 40px;
+	color: #fff
+}
+.content .btn-custom{}
+
+.btn-custom{
+    
+color: #333;
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+border: 2px solid black;
+    
+padding: 10px 20px;
+    
+display: inline-block;
+    
+margin-top: 30px;
+}
+.content a:hover{
+	font-size: 16px;
+	color: #fff;
+	background: #6b6b6b61;
+}
+.yoga-section{
+    overflow: hidden;
+}
+.yoga-bg{
+	width: 50%;
+	background-image: url(../images/image_one.jpg);
+	float: left;
+	height: 1021.88px;
+	background-repeat: no-repeat;
+}
+.yoga-content{
+	width: 50%;
+	float: left;
+	padding-left: 50px;
+}
+
+.yoga-content .content{
+	margin-left: 0;
+}
+
+p{
+    font-size: 25px;
+    color: #777;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+
+.blog-section{
+    background: #f0f0f0;
+}
+.blog-section .container{}
+.yoga-type{
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.yoga-type p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.btn{
+	text-align: center;
+}
+
+.btn .btn-custom{
+	margin: 20px 0;
+}
+
+.btn a:hover{
+	font-size: 16px;
+	color: #fff;
+	background: #6b6b6b61;
+}
+
+.summer-section{
+    overflow: hidden;
+}
+.summer-bg{
+	width: 50%;
+	background-image: url(../images/image_two.jpg);
+	float: left;
+	height: 1021.88px;
+	background-repeat: no-repeat;
+}
+.summer-content{
+	width: 50%;
+	float: left;
+	padding-left: 50px;
+}
+
+.summer-content .content{
+	margin-left: 0;
+}
+
+.summer-content .content h3{
+    text-transform: uppercase;
+}
+
+.summer-section2{
+    overflow: hidden;
+}
+.summer-bg2{
+	width: 50%;
+	background-image: url(../images/image_two.jpg);
+	float: right;
+	height: 1021.88px;
+	background-repeat: no-repeat;
+}
+.summer-content2{
+	width: 50%;
+	float: right;
+	padding-right: 50px;
+}
+
+.summer-content2 .content{
+	margin-right: 0;
+}
+
+.yoga-lesson{
+    background: #f4d4c1;
+}
+
+footer {
+	max-width: 100%;
+  	background-color: #ececec;
+  	text-align: center;
+}
+
+.footer-img-wrap {
+	max-width: 100%;
+  overflow: hidden;
+  width: 60%;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 65px;
+}
+
+.footer-img-wrap .footer-img {
+  float: left;
+}
+
+.footer-img-wrap .footer-img img {padding: 0 10px;}
+
+.social-links {
+	text-align: center;
+	margin: 5px 0;
+}
+
+.social-links ul {
+  margin-left: 50px;
+}
+
+.social-links ul li {
+  display: inline;
+}
+
+.social-links ul li a {
+  display: inline-block;
+  color: #333;
+  padding: 15px 8px;
+  font-size: 22px;
+}
+
+.footer-menu {
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.footer-menu ul {}
+
+.footer-menu ul li {
+  display: inline;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 16px;
+  margin-left: 20px;
+}
